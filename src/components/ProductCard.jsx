@@ -1,4 +1,79 @@
+// import React from 'react';
 
+// const ProductCard = () => {
+//   return (
+//     <div className="bg-white rounded-lg shadow-md p-4">
+//       <div className="relative">
+//         <span className="absolute top-2 left-2 bg-green-500 text-white text-xs font-semibold rounded-full px-2 py-1">
+//           Value Pack
+//         </span>
+//         <img
+//           src="../../public/assets/images/250ml.png"
+//           alt="Himtara 250ml"
+//           className="w-full h-48 object-contain"
+//         />
+//       </div>
+//       <div className="mt-4">
+//         <h3 className="text-gray-700 font-semibold">Himtara 250ml</h3>
+//         <p className="text-gray-500">250ml</p>
+//         <p className="text-gray-500">
+//           <span className="font-bold text-green-500">₹10</span> per piece
+//         </p>
+//         <p className="text-gray-500">Set Price: ₹144</p>
+//       </div>
+//       <div className="mt-4 flex gap-2">
+//         <button className="bg-green-200 text-green-700 py-2 px-4 rounded-md hover:bg-green-300">
+//           Add to Cart
+//         </button>
+//         <button className="bg-gray-100 text-gray-500 py-2 px-4 rounded-md hover:bg-gray-200">
+//           Subscribe & Save 25%
+//         </button>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default ProductCard;
+
+
+// import React from "react";
+// import { FaTint, FaLeaf } from "react-icons/fa";
+// import bottle from "../../public/assets/images/250ml.png";
+
+// const ProductCard = () => {
+//   return (
+//     <div className="max-w-sm mx-auto rounded-2xl overflow-hidden shadow-lg bg-white border border-blue-100 hover:shadow-blue-300 transition-shadow duration-300">
+//       <img
+//         src={bottle}
+//         alt="Clean Water"
+//         className="w-50 h-50 object-cover"
+//       />
+//       <div className="p-5">
+//         <div className="flex items-center gap-2 text-blue-600 font-semibold mb-2">
+//           <FaTint className="text-lg" />
+//           <span>Pure Mineral Water</span>
+//         </div>
+//         <h2 className="text-xl font-bold text-gray-800 mb-2">
+//           Stay Hydrated, Stay Healthy
+//         </h2>
+//         <p className="text-gray-600 text-sm mb-4">
+//           Delivered directly to your doorstep. 100% natural and certified safe for all age groups.
+//         </p>
+//         <div className="flex justify-between items-center">
+//           <button className="bg-blue-500 hover:bg-blue-600 text-white text-sm px-4 py-2 rounded-full transition">
+//             Order Now
+//           </button>
+//           <div className="text-green-500 flex items-center gap-1 text-sm">
+//             <FaLeaf />
+//             Eco-friendly Packaging
+//           </div>
+//         </div>
+//       </div>
+//     </div>
+//   );ss
+// };
+
+// export default ProductCard;
 import React from "react";
 import { FaEye, FaHeart, FaStar, FaShoppingCart, FaTag } from "react-icons/fa";
 import bottle1 from "../../public/assets/images/250 ml.png";
