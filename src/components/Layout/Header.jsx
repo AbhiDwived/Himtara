@@ -6,13 +6,19 @@ function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white shadow-sm sticky top-0 z-50">
+   <header className="bg-white shadow-sm sticky top-0 z-50">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center">
+          {/* <Link to="/" className="flex items-center">
             <span className="bg-gradient-to-r from-[#42B3D5] via-[#3aa0c0] to-[#42B3D5] bg-clip-text text-transparent animate-shimmer bg-[length:200%_100%] font-bold text-2xl">Himtara</span>
-          </Link>
+          </Link> */}
+          <Link to="/" className="flex items-center">
+  <span className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-white via-[#42B3D5] to-white bg-clip-text text-transparent animate-shimmer bg-[length:200%_100%]">
+    Himtara
+  </span>
+</Link>
+
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">

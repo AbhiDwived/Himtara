@@ -75,14 +75,17 @@ function HomePage() {
       </section>
 
       {/* Products Section */}
-      <section className="py-12 bg-white">
-        <div className="mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-10">Our Products</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <ProductCard />
-          </div>
-        </div>
-      </section>
+<section className="py-12 bg-white">
+  <div className=" px-4">
+    <h2 className="text-3xl font-bold text-center mb-10">Our Products</h2>
+    {/* <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8"> */}
+      
+        <ProductCard  />
+   
+    {/* </div> */}
+  </div>
+</section>
+
 
       {/* Subscription CTA */}
       <section className="py-12 bg-[#42B3D5] text-white">

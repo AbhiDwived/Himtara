@@ -7,9 +7,14 @@ function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-xl font-semibold text-[#42B3D5] mb-4">Himtara</h3>
+            {/* <h3 className="text-xl font-semibold text-[#42B3D5] mb-4">Himtara</h3> */}
+            <Link to="/" className="flex items-center">
+              <span className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-white via-[#42B3D5] to-white bg-clip-text text-transparent animate-shimmer bg-[length:200%_100%]">
+                Himtara
+              </span>
+            </Link>
             <p className="text-gray-400 text-sm mb-4">
-              Pure Himalayan water delivered fresh to your doorstep. Experience the difference of 
+              Pure Himalayan water delivered fresh to your doorstep. Experience the difference of
               glacier-fed mountain springs.
             </p>
             <div className="flex space-x-4">
@@ -62,9 +67,9 @@ function Footer() {
               Subscribe for special offers and updates
             </p>
             <div className="flex">
-              <input 
-                type="email" 
-                placeholder="Enter your email" 
+              <input
+                type="email"
+                placeholder="Enter your email"
                 className="bg-gray-800 text-gray-200 px-4 py-2 rounded-l-md w-full text-sm focus:outline-none focus:ring-1 focus:ring-[#42B3D5]"
               />
               <button className="bg-[#42B3D5] hover:bg-[#3aa0c0] text-white px-4 rounded-r-md">
