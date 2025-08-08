@@ -76,13 +76,13 @@
 // export default ProductCard;
 import React from "react";
 import { FaEye, FaHeart, FaStar, FaShoppingCart, FaTag } from "react-icons/fa";
-import bottle1 from "../../public/assets/images/250 ml.png";
-import bottle2 from "../../public/assets/images/1 L.png";
-import bottle3 from "../../public/assets/images/500 ml Set of 24.png";
-import bottle4 from "../../public/assets/images/250 ml Set of 24.png";
-import bottle5 from "../../public/assets/images/500 ml.png";
-import bottle6 from "../../public/assets/images/500 ml Set of 24.png";
-import bottle7 from "../../public/assets/images/1L Set of 12.png";
+import bottle1 from "/assets/images/250 ml.png";
+import bottle2 from "/assets/images/1 L.png";
+import bottle3 from "/assets/images/500 ml Set of 24.png";
+import bottle4 from "/assets/images/250 ml Set of 24.png";
+import bottle5 from "/assets/images/500 ml.png";
+import bottle6 from "/assets/images/500 ml Set of 24.png";
+import bottle7 from "/assets/images/1L Set of 12.png";
 ;
 
 
